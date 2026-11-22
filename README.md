@@ -1,3 +1,8 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="brand/labcarto-logo-dark-bg.svg">
+  <img src="brand/labcarto-logo-light-bg.svg" alt="Labcarto" width="240">
+</picture>
+
 # Labcarto agent
 
 The program the Labcarto setup asks you to run. It runs `docker ps` and `docker inspect` (read-only), reduces each container to
